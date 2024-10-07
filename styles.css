@@ -16,6 +16,20 @@ body {
 .nav-link {
     color: #d4d4d4 !important;
     /* Brighter navbar text color */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #007acc !important;
+    /* Color on hover */
+}
+
+.navbar-brand:active,
+.nav-link:active {
+    color: #ffcc00 !important;
+    /* Color on click */
 }
 
 .card {
@@ -26,23 +40,23 @@ body {
 }
 
 .card-title {
-    color: #754871;
+    color: #c586c0;
     /* Brighter card title color */
 }
 
 .card-text {
-    color: #695e5e;
+    color: #d4d4d4;
     /* Brighter card text color */
 }
 
 .btn-primary {
-    background-color: #512d46;
+    background-color: #007acc;
     /* Brighter button background */
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: #27475c;
+    background-color: #005f9e;
     /* Darker button background on hover */
 }
 
@@ -63,4 +77,23 @@ body {
 .form-group label {
     color: #d4d4d4;
     /* Brighter form label color */
+}
+
+.footer {
+    background-color: #2d2d2d;
+    /* Dark footer background */
+    color: #d4d4d4;
+    /* Brighter footer text color */
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #d4d4d4;
+    /* Brighter footer link color */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #007acc;
+    /* Brighter link color on hover */
 }
