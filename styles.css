@@ -1,23 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #1e1e1e;
+    /* Dark background */
+    color: #d4d4d4;
+    /* Brighter text color */
+    font-family: 'Arial', sans-serif;
 }
 
-nav {
+.navbar {
+    background-color: #2d2d2d;
+    /* Lighter navbar background */
     margin-bottom: 20px;
 }
 
-section {
-    padding: 20px;
-    margin: 20px 0;
+.navbar-brand,
+.nav-link {
+    color: #d4d4d4 !important;
+    /* Brighter navbar text color */
 }
 
-h2 {
-    margin-bottom: 10px;
+.card {
+    background-color: #2d2d2d;
+    /* Lighter card background */
+    border: none;
+    margin-bottom: 20px;
 }
 
-form {
-    max-width: 600px;
-    margin: auto;
+.card-title {
+    color: #754871;
+    /* Brighter card title color */
+}
+
+.card-text {
+    color: #695e5e;
+    /* Brighter card text color */
+}
+
+.btn-primary {
+    background-color: #512d46;
+    /* Brighter button background */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #27475c;
+    /* Darker button background on hover */
+}
+
+.form-control {
+    background-color: #3c3c3c;
+    /* Darker form input background */
+    color: #d4d4d4;
+    /* Brighter form input text color */
+    border: 1px solid #555555;
+    /* Border color for form inputs */
+}
+
+.form-control::placeholder {
+    color: #a6a6a6;
+    /* Placeholder text color */
+}
+
+.form-group label {
+    color: #d4d4d4;
+    /* Brighter form label color */
 }
