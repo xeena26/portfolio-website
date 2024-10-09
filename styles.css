@@ -1,108 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 body {
-    background-color: #2c2c54;
-    /* Dark purplish-grey background */
-    color: #d4d4d4;
-    /* Brighter text color */
-    font-family: 'Arial', sans-serif;
+    background-color: #fff5d7 !important;
+    /* Ragin Beige background */
+    color: #ffaaab !important;
+    /* Pink Leaf text color */
+    font-family: 'Nanum Pen Script', cursive !important;
+    /* Handwritten, narrow font */
+    font-size: 18px !important;
+    /* Increased base font size */
 }
 
 .navbar {
-    background-color: #2d2d2d;
-    /* Darker navbar background */
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #ff5e6c !important;
+    /* Coral Pink navbar background */
+    margin-bottom: 20px !important;
+    position: relative;
+    /* Add this to position the Portfolio button */
+}
+
+.navbar .portfolio {
+    position: absolute;
+    left: 20px;
+    /* Adjust the position of the "Portfolio" button */
 }
 
 .navbar-brand,
 .nav-link {
-    color: #d4d4d4 !important;
-    /* Brighter navbar text color */
-    transition: color 0.3s ease;
-    /* Smooth transition for color change */
+    color: #fff5d7 !important;
+    /* Ragin Beige navbar text color */
+    transition: color 0.3s ease, font-size 0.3s ease !important;
+    /* Smooth transition for color and font size change */
+    font-size: 20px !important;
+    /* Increased navbar font size */
 }
 
 .navbar-brand:hover,
 .nav-link:hover {
-    color: #007acc !important;
-    /* Color on hover */
+    color: #ffaaab !important;
+    /* Pink Leaf on hover */
+    font-size: 24px !important;
+    /* Larger font size on hover */
 }
 
 .navbar-brand:active,
 .nav-link:active {
-    color: #ffcc00 !important;
-    /* Color on click */
+    color: #feb300 !important;
+    /* Sleuthe Yellow on click */
 }
 
 .card {
-    background-color: #2d2d2d !important;
-    /* Dark card background */
-    border: none;
-    border-radius: 15px;
+    background-color: #feb300 !important;
+    /* Sleuthe Yellow card background */
+    border: none !important;
+    border-radius: 15px !important;
     /* Rounded edges */
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-    /* Smooth transition for movement */
+    margin-bottom: 20px !important;
+    transition: transform 0.3s ease, font-size 0.3s ease !important;
+    /* Smooth transition for movement and font size */
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
     /* Slightly enlarge the card on hover */
 }
 
 .card-title {
-    color: #c586c0;
-    /* Brighter card title color */
+    color: #000000 !important;
+    /* Black card title color */
+    font-size: 22px !important;
+    /* Increased card title font size */
 }
 
 .card-text {
-    color: #d4d4d4;
-    /* Brighter card text color */
+    color: #7b163c !important;
+    /* Black card text color */
+    font-size: 20px !important;
+    /* Increased card text font size */
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    font-size: 26px !important;
+    /* Larger font size on hover */
 }
 
 .btn-primary {
-    background-color: #007acc;
-    /* Brighter button background */
-    border: none;
+    background-color: #ff5e6c !important;
+    /* Coral Pink button background */
+    border: none !important;
 }
 
 .btn-primary:hover {
-    background-color: #005f9e;
-    /* Darker button background on hover */
+    background-color: #ffaaab !important;
+    /* Pink Leaf button background on hover */
 }
 
 .form-control {
-    background-color: #3c3c3c;
-    /* Darker form input background */
-    color: #d4d4d4;
-    /* Brighter form input text color */
-    border: 1px solid #555555;
+    background-color: #feb300 !important;
+    /* Sleuthe Yellow form input background */
+    color: #ff5e6c !important;
+    /* Coral Pink form input text color */
+    border: 1px solid #ff5e6c !important;
     /* Border color for form inputs */
 }
 
 .form-control::placeholder {
-    color: #a6a6a6;
-    /* Placeholder text color */
+    color: #ffaaab !important;
+    /* Pink Leaf placeholder text color */
 }
 
 .form-group label {
-    color: #d4d4d4;
-    /* Brighter form label color */
+    color: #ff5e6c !important;
+    /* Coral Pink form label color */
 }
 
 .footer {
-    background-color: #2d2d2d;
-    /* Dark footer background */
-    color: #d4d4d4;
-    /* Brighter footer text color */
-    padding: 20px 0;
+    background-color: #ff5e6c !important;
+    /* Coral Pink footer background */
+    color: #fff5d7 !important;
+    /* Ragin Beige footer text color */
+    padding: 20px 0 !important;
 }
 
 .footer a {
-    color: #d4d4d4;
-    /* Brighter footer link color */
-    text-decoration: none;
+    color: #fff5d7 !important;
+    /* Ragin Beige footer link color */
+    text-decoration: none !important;
 }
 
 .footer a:hover {
-    color: #007acc;
-    /* Brighter link color on hover */
+    color: #ffaaab !important;
+    /* Pink Leaf link color on hover */
 }
